@@ -1,0 +1,12 @@
+/**
+ * This function add a card in the HTML
+ * @param {string} carta
+ * @param {Number} turno
+ * @param {HTMLElement} cartasJugadores 
+ */
+export const acumularCartas = (carta, turno, cartasJugadores) => {
+  const imagenCarta = document.createElement("img");
+  imagenCarta.src = `assets/cartas/${carta}.png`;
+  imagenCarta.classList.add("carta");
+  cartasJugadores[turno].append(imagenCarta);
+};
