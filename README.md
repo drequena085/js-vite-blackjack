@@ -1,12 +1,15 @@
-# Blackjack Vite
+# Comandos útiles de git
 
-Pasos para ejecutar proyecto
-
-1. Clonar repositorio
-2. Ejecutar `npm install` para recontruir los modulos de node
-2. Correr el devServer `npm run dev`
-4. Abrir el proyecto en: `http://localhost:3000`
-
-# Produccion
-1. Ejecutar `npm run build`
-2. Tomar la carpeta `dist` y desplegarla
+1. git init
+2. git add .
+3. git reset .
+4. git commit -m "Texto del commit"
+5. git checkout -- .
+6. git log
+7. git commit --amend
+8. git checkout -b rama-heroes
+9. git checkout master
+10. git merge nombre_rama 
+11. git branch -d nombre_rama
+12. git push
+13. git commit -am "Texto del commit"
